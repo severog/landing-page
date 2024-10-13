@@ -94,7 +94,7 @@ h2 {
     height: 150px;
     border-radius: 10px;
 }
-p {
+.random-text {
     width: 150px;
     height: 150px;
 }
@@ -103,9 +103,32 @@ p {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 50px 200px;
+}
+p .author {
+    text-align: right;
+    font-weight: 700;
+    max-width: 50%;
 }
 
-.quote {
+.hero-action {
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px 150px;
+    margin: 50px 300px; 
+    border-radius: 5px;
 }
+
+.action-button {
+    border: 1px solid white;
+    color: white;
+    padding: 5px 30px;
+}
+
