@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     color: white;
     align-items: center;
-    padding: 24px 200px;
+    padding: 24px 150px;
 }
 .header, ul {
     display: flex;
@@ -42,7 +42,7 @@ a {
     display: flex;
     background-color: #1F2937;
     color: white;
-    padding: 100px 200px;
+    padding: 100px 150px;
     justify-content: space-between;
 }
 
@@ -68,10 +68,44 @@ h1 {
     font-weight: 900;
     margin: 4px 0;
 }
+
+.hero-random {
+    padding: 50px 150px;
+}
 .hero-image {
     display: flex;
     width: 450px;
     background-color: rgba(210, 195, 195, 0.579);
     justify-content: center;
     align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hero-illustration {
+    display: flex;
+    justify-content: space-evenly;
+}
+.image {
+    border: 5px solid rgb(128, 128, 245);
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+p {
+    width: 150px;
+    height: 150px;
+}
+
+.hero-quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    align-items: center;
+    justify-content: center;
 }
