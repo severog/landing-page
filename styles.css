@@ -1,1 +1,89 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+/* heading css */
+.hero-header, .hero-footer {
+    font-family: Roboto;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.hero-nav > h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-nav, .hero-nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.hero-nav > ul {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-headline > .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.hero-nav, .hero-headline {
+    padding: 20px 80px;
+}
+
+.headline-left {
+    width: 45%;
+    color: #E5E7EB;
+}
+.headline-left > h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+.headline-left > button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+/****************************************/
+
+
+/* hero content css */
+.hero-content > h2 { 
+    text-align: center;
+}
+
+.hero-content > ul {
+    display: flex;
+}
+
+.hero-content > img {
+    border: 1px solid blue;
+    width: 400px;
+    height: 400px;
+}
