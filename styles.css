@@ -132,6 +132,7 @@ li > a {
     color:#E5E7EB;
     margin: 50px 80px;
     padding: 50px 100px;
+    border-radius: 5px;
 }
 
 #action {
@@ -145,4 +146,11 @@ li > a {
     border-radius: 5px;
     padding: 5px 20px;
     color: white;
+}
+/***************************************/
+
+/* footer */
+.hero-footer {
+    padding: 50px;
+    text-align: center;
 }
