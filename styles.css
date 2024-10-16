@@ -9,6 +9,7 @@ body {
 .hero-header, .hero-footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 
 }
 
 .hero-nav > h1 {
@@ -47,10 +48,14 @@ li > a {
     height: 200px;
     border: 1px solid white;
     border-radius: 5px;
+    background-color: #5051535f;
 }
 
 .hero-nav, .hero-headline {
     padding: 20px 80px;
+}
+.hero-headline {
+    padding-bottom: 80px;
 }
 
 .headline-left {
@@ -70,6 +75,9 @@ li > a {
     border-radius: 5px;
     padding: 5px 20px;
 }
+.headerline-left > p {
+    font-size: 18px;
+}
 /****************************************/
 
 
@@ -83,7 +91,7 @@ li > a {
     width: 250px;
     height: 250px;
     border: 5px solid #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .hero-content {
     display: flex;
@@ -96,3 +104,23 @@ li > a {
     text-align: center;
     font-size: 18px;
 }
+
+/* hero testimonial */
+.hero-testimonial {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    padding: 150px 80px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.quote {
+    color:#858584
+}
+/***************************************/
+
+/* hero-action */
